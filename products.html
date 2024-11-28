@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stride and Style - Products</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3a3d9f;
+            color: white;
+            padding: 20px;
+        }
+
+        header .logo {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        /* Products Section */
+        .product-container {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            margin: 20px;
+            transition: transform 0.7s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.2em;
+            color: #3a3d9f;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            color: #ff6f61;
+            font-size: 1.1em;
+        }
+
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #3a3d9f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-card button:hover {
+            background-color: #2c2f8b;
+        }
+
+        footer {
+            background-color: #3a3d9f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Stride and Style</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="product-container">
+        <div class="product-card">
+            <img src=https://m.media-amazon.com/images/I/61VeXlwBbeL._AC_SY575_.jpg alt="Product 1">
+            <h3>Badminton Shoes</h3>
+            <p>6000 inr</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src= https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT3MTqC9hs-CBDa9mIi4fbo77AmblaPOSGe7nxm-_DzUQK-i-3o75jYclMhM07vvMOsKld9slO7Y2F5FGE0iJ9cFLn9ibutvuFuY9qOBZTjMMBTnwIJMlkc9A&usqp=CAE alt="Product 2">
+            <h3>Running Cap</h3>
+            <p>400 inr</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src=https://imgs.search.brave.com/hQXv2zWKS1YFt6DcxdJcLcrVxJJ12D2rAD7f7UFITW8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFVdENxNGZrZUwu/anBn alt="Product 3">
+            <h3>Sporty Jacket</h3>
+            <p>2000 inr</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src= https://imgs.search.brave.com/AO07E8wzpMCOjHT0_Q3X2KnkXwTPvI7xw1G4KsmXmxg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFUMlUtZDEzYkwu/anBn alt="Product 4">
+            <h3>Shorts </h3>
+            <p>700 inr</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Stride and Style. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
